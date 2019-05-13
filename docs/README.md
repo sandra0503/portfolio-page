@@ -1,15 +1,15 @@
 ---
 home: true
 heroImage: /images/vuejsradar.png
-actionText: Try it Out →
-actionLink: /welcome
+actionText: Recent work
+actionLink: /project1
 features:
-- title: Markdown Editing
-  details: Netlify's CMS provides a flexible Markdown Editor
-- title: Asset Management
-  details: Easily upload images to your repo with an uploader
-- title: Powerful Deployments
-  details: Leverage the power of netlify and VuePress to deploy statically
-footer: Copyright © 2018-present Sandra Zollner
+- title: Agile way of working
+  details: Used to work in SCRUM mode with most of my teams, I love the short ways of communication and quick outcomes
+- title: HTML, CSS & JavaScript
+  details: Of course I'm super familiar with the core stack of web development, but I never stop teaching myself the newest frontend technologies
+- title: Focus on UX/UI
+  details: I enjoy to collaborate closely with designers and user experience experts to create new things together
+footer: Copyright © 2019 Sandra Zollner
 title: FRONT PAGE
 ---
