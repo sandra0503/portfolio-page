@@ -1,9 +1,20 @@
 {
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "contents:dev": "vuepress dev contents",
+    "contents:build": "vuepress build contents"
   },
   "devDependencies": {
-    "vuepress": "^0.9.0"
-  }
+    "tailwindcss": "^1.0.1",
+    "vuepress": "^1.0.0-alpha.48"
+  },
+  "dependencies": {
+    "vuepress-plugin-smooth-scroll": "^0.0.3"
+  },
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sandra0503/portfolio-page.git",
+  "author": "Sandra Zollner <sandra_zollner@msn.com>",
+  "license": "MIT"
 }
