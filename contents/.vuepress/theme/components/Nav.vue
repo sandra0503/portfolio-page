@@ -1,12 +1,13 @@
 <template>
   <header>
     <nav
-      class='font-sans bg-white text-center flex justify-between py-4 px-3 mx-auto container overflow-hidden'
+      class='font-sans bg-grey text-center flex justify-between py-4 px-3 mx-auto container overflow-hidden'
     >
       <router-link
         :to='`/`'
-        class='block text-left self-center no-underline font-bold uppercase'
-      >{{$site.title}}</router-link>
+        class='block text-left self-center no-underline font-light'
+        v-html='$site.title'
+      ></router-link>
       <ul class='text-sm text-grey-dark list-reset flex items-center'>
         <li v-for='item in navItems'>
           <router-link
@@ -24,10 +25,6 @@
 <script>
 export default {
   name: 'Nav',
-  created() {
-    console.log('Navigation was created');
-    console.log(this.$site);
-  },
   computed: {
     navItems() {
       const base = this.$site.base;
@@ -36,6 +33,3 @@ export default {
   },
 };
 </script>
-
-<style lang='stylus'>
-</style>

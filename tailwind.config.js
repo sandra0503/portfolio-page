@@ -5,10 +5,13 @@ module.exports = {
       headline: ['Oswald','sans-serif'],
     },
     colors: {
-      pink: '#ff7675',
+      pink: '#f5e1da',
       black: '#000',
+      blue: '#1a1b46',
       white: '#fff',
-      grey: '#636e72',
+      grey: '#f1f1f1',
+      teal: '#085f63',
+      turquoise: '#49beb7',
     },
     extend: {
       minHeight: {
@@ -16,6 +19,7 @@ module.exports = {
       },
       fontSize: {
         'super': '5rem',
+        'huge': '4rem',
       }
     }
   }

@@ -3,11 +3,23 @@ layout: Home
 heroImage:
   source: /images/nathan-dumlao-520251-unsplash-1.jpg
   alt: Laptop with coffee
-  text: Coffee to code
+headerContent:
+  text: Love to craft
+  skills:
+  - JavaScript
+  - HTML/CSS
+  - User Experience
+  - Vue.js
+  - Responsive
+  - React
+  - Usability
+  arrow: /images/arrow.png
 about:
-  image: /images/sandra.jpg
+  image:
+    source: /images/sandra-zollner_041.jpg
+    alt: Profile picture
   headline: Hi there!
-  text: I'm Sandra, a Munich based web developer.
+  text: My name is Sandra, I'm a frontend developer from Germany. I'm developing customized websites and other digital products in agile teams since 2014. Before I studied Media Informatics with focus on Human-Computer-Interaction in Munich. What I love about building digital products, is the process of creating awesome new things together with other people and connecting technology with design and user experience! In my free time I love music, good food, yoga practice and traveling.
 contact:
   headline: Contact
 experience:
@@ -20,5 +32,5 @@ experience:
   - title: Focus on UX/UI
     details: I enjoy to collaborate closely with designers and user experience experts to create new things together
 footer: Copyright © 2019 Sandra Zollner
-title: About Sandra Zollner
+title: Sandra Zollner
 ---
