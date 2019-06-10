@@ -9,6 +9,7 @@
     "vuepress": "^1.0.0-alpha.48"
   },
   "dependencies": {
+    "glhd-tailwindcss-transitions": "^0.3.0",
     "vuepress-plugin-smooth-scroll": "^0.0.3"
   },
   "name": "portfolio-page",

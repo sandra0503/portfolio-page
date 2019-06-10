@@ -5,14 +5,14 @@
     >
       <router-link
         :to='`/`'
-        class='block text-left self-center no-underline font-light'
+        class='block text-left self-center no-underline uppercase'
         v-html='$site.title'
       ></router-link>
-      <ul class='text-sm text-grey-dark list-reset flex items-center'>
+      <ul class='text-sm list-reset flex items-center'>
         <li v-for='item in navItems'>
           <router-link
             :to='item.link'
-            class='inline-block py-2 ml-3 text-grey-darkest hover:text-grey-dark no-underline'
+            class='inline-block py-2 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-grey hover:border-blue'
           >
             {{item.text}}
           </router-link>

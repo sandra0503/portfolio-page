@@ -1,6 +1,6 @@
 <template>
-  <footer class='font-sans bg-blue text-center text-grey py-8 px-4'>
+  <footer class='font-sans bg-blue text-center text-grey pt-8 pb-4 px-4'>
     <div>©2019 Sandra Z. All rights reserved.</div>
-    <a class='text-center text-xs' href="https://www.freepik.com/free-photos-vectors/vintage">Vintage vector created by rawpixel.com - www.freepik.com</a>
+    <span class='block mt-4 text-center text-xs'>Vintage vector created by <a class='text-center text-xs' href="https://www.freepik.com/free-photos-vectors/vintage">rawpixel.com</a>, icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> - <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
   </footer>
 </template>

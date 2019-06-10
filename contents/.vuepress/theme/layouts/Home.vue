@@ -1,9 +1,9 @@
 <template>
   <div class='font-sans bg-grey text-blue'>
     <Nav/>
-    <Header/>
+    <Header class ='mb-6'/>
     <div v-if='data.about' id='about' class='bg-grey w-full'>
-      <div class='container flex flex-col md:flex-row mx-auto p-3 py-6'>
+      <div class='container flex flex-col md:flex-row mx-auto px-6 py-10'>
         <div class='flex-1'>
           <div class='w-56 py-2 mx-auto'>
             <img class='rounded-full'
@@ -18,9 +18,14 @@
         </div>
       </div>
     </div>
-    <div class='w-full h-64 bg-pink'>
-      <div class='container font-headline text-4xl relative mx-auto px-3 py-6'>
-        <h1>{{ data.experience.headline }}</h1>
+    <div class='w-full bg-pink'>
+      <div class='container relative mx-auto px-3 py-6'>
+        <h1 class='font-headline text-center text-4xl mb-4'>{{ data.experience.headline }}</h1>
+        <div class='flex flex-col md:flex-row'>
+          <template v-for='skill in data.experience.skills'>
+            <Teaser :icon='skill.icon' :headline='skill.title' :content='skill.details'></Teaser>
+          </template>
+        </div>
       </div>
     </div>
     <div id='contact' class='bg-grey w-full h-64'>
@@ -37,9 +42,10 @@
 import Footer from '@theme/components/Footer';
 import Header from '@theme/components/Header';
 import Nav from '@theme/components/Nav';
+import Teaser from '@theme/components/atoms/Teaser';
 
 export default {
-  components: { Nav, Header, Footer },
+  components: { Nav, Header, Footer, Teaser },
   name: 'Home',
   computed: {
     data () {

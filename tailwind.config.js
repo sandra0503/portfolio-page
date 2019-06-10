@@ -11,7 +11,6 @@ module.exports = {
       white: '#fff',
       grey: '#f1f1f1',
       teal: '#085f63',
-      turquoise: '#49beb7',
     },
     extend: {
       minHeight: {
@@ -22,5 +21,8 @@ module.exports = {
         'huge': '4rem',
       }
     }
-  }
+  },
+  plugins: [
+    require('glhd-tailwindcss-transitions')(),
+  ],
 };
