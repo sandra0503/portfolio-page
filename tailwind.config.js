@@ -14,8 +14,14 @@ module.exports = {
       teal: '#085f63',
     },
     extend: {
-      minHeight: {
+      height: {
         'hero': 'calc(100vh - 69px)',
+      },
+      minHeight: {
+        'hero': '500px',
+      },
+      maxHeight: {
+        'hero': '800px',
       },
       fontSize: {
         'super': '5rem',

@@ -1,5 +1,5 @@
 <template>
-  <div class='flex flex-col flex-1 items-center self-center mx-6 my-8 md:my-6'>
+  <div class='flex flex-col flex-1 items-center self-center md:mx-8 my-8 md:my-6'>
     <div class='rounded-full w-16 h-16'>
       <img :src='this.$withBase(`${icon}`)'/>
     </div>
