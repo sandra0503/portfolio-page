@@ -16,7 +16,7 @@ headerContent:
   arrow: /icons/arrow.png
 about:
   image:
-    source: /images/sandra-zollner_041.jpg
+    source: /images/sandra-zollner_004.jpg
     alt: Profile picture
   headline: Hi there!
   text: My name is Sandra, I'm a frontend developer from Germany. I'm developing customized websites and other digital products in agile teams since 2014. I studied Media Informatics with focus on Human-Computer-Interaction in Munich. What I love about building digital products, is the process of creating awesome new things together with other people and connecting technology with design and user experience! In my free time I love music, good food, yoga practice and traveling.

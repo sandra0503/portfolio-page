@@ -2,7 +2,8 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Raleway', 'sans-serif'],
-      headline: ['Oswald','sans-serif'],
+      headline: ['Limelight','cursive'],
+      sansserif: ['Oswald','sans-serif'],
     },
     colors: {
       pink: '#f5e1da',

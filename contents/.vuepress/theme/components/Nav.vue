@@ -12,7 +12,7 @@
         <li v-for='item in navItems'>
           <router-link
             :to='item.link'
-            class='inline-block py-2 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-grey hover:border-blue'
+            class='inline-block py-2 mt-1 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-grey hover:border-blue'
           >
             {{item.text}}
           </router-link>

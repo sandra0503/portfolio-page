@@ -4,8 +4,8 @@
       v-if='data && data.heroImage'
       :style='{ backgroundImage: `url(${$withBase(data.heroImage.source)})` }'
     />
-    <div class='container uppercase text-center font-headline mx-auto mt-8 md:mt-40 p-3 z-10'>
-      <h1 class='text-huge md:text-super text-pink'>
+    <div class='container uppercase text-center mx-auto mt-8 md:mt-40 p-3 z-10'>
+      <h1 class='text-huge font-headline md:text-super text-pink'>
         {{ data.headerContent.text }}
       </h1>
       <div class='mt-4 flex justify-center'>
@@ -13,7 +13,7 @@
           <img :src='$withBase(data.headerContent.arrow)' alt='arrow'/>
         </div>
       </div>
-      <div class='mt-8 md:mt-10 flex flex-wrap  max-w-md mx-auto justify-center'>
+      <div class='mt-8 md:mt-10 flex flex-wrap font-sansserif max-w-md mx-auto justify-center'>
         <div v-for='skill in data.headerContent.skills'
           class='bg-pink p-2 m-2 rounded'>
           <span class="text-blue">{{ skill }}</span>
