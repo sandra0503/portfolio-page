@@ -3,7 +3,7 @@
     <Nav/>
     <Header class ='mb-6'/>
     <div v-if='data.about' id='about' class='bg-grey w-full'>
-      <div class='container flex flex-col md:flex-row mx-auto px-6 py-10'>
+      <div class='container flex flex-col md:flex-row mx-auto px-6 py-10 md:py-16'>
         <div class='flex-1'>
           <div class='w-56 py-2 mx-auto'>
             <img class='rounded-full'
@@ -19,11 +19,11 @@
       </div>
     </div>
     <div class='w-full bg-pink'>
-      <div class='container relative mx-auto px-3 py-6'>
+      <div class='container relative mx-auto px-6 py-6'>
         <h1 class='font-headline text-center text-4xl mb-4'>{{ data.experience.headline }}</h1>
-        <div class='flex flex-col md:flex-row'>
+        <div class='flex flex-col lg:flex-row'>
           <template v-for='skill in data.experience.skills'>
-            <Teaser :icon='skill.icon' :headline='skill.title' :content='skill.details'></Teaser>
+            <Teaser :id='skill.anchor' :icon='skill.icon' :headline='skill.title' :content='skill.details'></Teaser>
           </template>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default {
   computed: {
     data () {
       return this.$page.frontmatter;
-    },
+    }
   },
 };
 </script>

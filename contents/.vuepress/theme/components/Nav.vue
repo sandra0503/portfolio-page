@@ -10,12 +10,12 @@
       ></router-link>
       <ul class='text-sm list-reset flex items-center'>
         <li v-for='item in navItems'>
-          <router-link
-            :to='item.link'
-            class='inline-block py-2 mt-1 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-grey hover:border-blue'
+          <a
+            :href='item.link'
+            class='anchorLink cursor-pointer inline-block py-2 mt-1 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-grey hover:border-blue'
           >
             {{item.text}}
-          </router-link>
+          </a>
         </li>
       </ul>
     </nav>
@@ -31,5 +31,34 @@ export default {
       return this.$site.themeConfig.locales[base].nav;
     },
   },
+  mounted () {
+    this.anchorLinks = document.querySelectorAll('.anchorLink');
+    this.anchorLinks.forEach(link => {
+      link.addEventListener('click', this.scrollToTarget);
+    });
+  },
+  data () {
+    return {
+      anchorLinks: [],
+    }
+  },
+  methods: {
+    scrollToTarget(event) {
+      event.preventDefault();
+      const anchor = document.querySelectorAll(event.target.getAttribute('href'))[0];
+      if (anchor) {
+        const y = anchor.getBoundingClientRect().top + window.scrollY;
+        window.scroll({
+          top: y,
+          behavior: 'smooth'
+        });
+      }
+    }
+  },
+  beforeDestroyed() {
+    this.anchorLinks.forEach(link => {
+      link.removeEventListener('click', this.scrollToTarget);
+    });
+  }
 };
 </script>

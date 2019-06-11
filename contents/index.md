@@ -6,13 +6,20 @@ heroImage:
 headerContent:
   text: Love to craft
   skills:
-  - JavaScript
-  - HTML/CSS
-  - User Experience
-  - Vue.js
-  - Responsive
-  - React
-  - Usability
+  - title: JavaScript
+    link: '#js'
+  - title: HTML/CSS
+    link: '#js'
+  - title: User Experience
+    link: '#ux'
+  - title: Vue.js
+    link: '#js'
+  - title: Responsive
+    link: '#js'
+  - title: React
+    link: '#js'
+  - title: Usability
+    link: '#ux'
   arrow: /icons/arrow.png
 about:
   image:
@@ -27,11 +34,14 @@ experience:
   skills:
   - icon: /icons/003-team.svg
     title: Agile way of working
-    details: Used to work in SCRUM mode with most of my teams, I love the short ways of communication and quick outcomes
+    anchor: agile
+    details: In the last few years I had the chance to work in various agile team settings, most of which applied the Scrum framework to their processes. As a Scrum team member I take Backlog groomings and Sprint plannings seriously, I always contribute my part to split bigger topics into smaller stories and I enjoy to plan Sprints effectively together with the team. I like the shorter ways of communication, the freedom in smaller decisions and the quick outcome of working agile.
   - icon: /icons/001-tablet.svg
     title: HTML, CSS & JavaScript
-    details: Of course I'm super familiar with the core stack of web development, but I never stop teaching myself the newest frontend technologies
+    anchor: js
+    details: While I'm confident in building state-of-the-art frontend for web applications, I'm always learning new things and technologies. Besides a solid knowledge of HTML, CSS and JavaScript, I'm familiar with JS frameworks like React or Angular, but at the moment especially with Vue.js. I'm also not afraid of connecting to APIs and backend systems. In my most recent project we are building a mobile-first online shop implemented with Zalando's Mosaic 9 stack.
   - icon: /icons/002-ux.svg
+    anchor: ux
     title: Focus on UX/UI
     details: I enjoy to collaborate closely with designers and user experience experts to create new things together
 footer: Copyright © 2019 Sandra Zollner
