@@ -43,7 +43,8 @@ experience:
   - icon: /icons/002-ux.svg
     anchor: ux
     title: Focus on UX/UI
-    details: My goal is not only to deliver great code, I do also have a strong focus on user interface and UX when developing new features. I love to collaborate closely with design and user experience experts, to learn from each other and to create new things together. I thrive to build websites, applications and features which are <b>truly valuable</b> to users and have a <b>positive impact</b> in the world. My background in HCI is helpful for designing data-driven user studies and tests.
+    details: My goal is not only to deliver great code, I do also have a strong focus on user <b>interface and UX</b> when developing new features. I love to collaborate closely with design and user experience experts, to learn from each other and to create new things together. I thrive to build websites, applications and features which are <b>truly valuable</b> to users and have a <b>positive impact</b> in the world. My background in HCI is helpful for designing data-driven user studies and tests.
 footer: Copyright © 2019 Sandra Zollner
+footerError: /icons/arrow.png
 title: Sandra Zollner
 ---

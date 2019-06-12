@@ -11,7 +11,7 @@ module.exports = {
       blue: '#1a1b46',
       white: '#fff',
       grey: '#f1f1f1',
-      teal: '#085f63',
+      teal: '#49beb7',
     },
     extend: {
       height: {
@@ -26,6 +26,7 @@ module.exports = {
       fontSize: {
         'super': '5rem',
         'huge': '4rem',
+        'tiny': '10px'
       }
     }
   },

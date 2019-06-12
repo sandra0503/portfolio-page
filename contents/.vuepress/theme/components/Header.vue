@@ -15,8 +15,8 @@
       </div>
       <div class='mt-8 md:mt-10 flex flex-wrap font-sansserif max-w-md mx-auto justify-center'>
         <div v-for='skill in data.headerContent.skills'
-          class='bg-pink p-2 m-2 rounded'>
-          <a :href='skill.link' class='headerAnchorLink text-blue'>{{ skill.title }}</a>
+          class='btn transition-fast p-2 m-2 rounded'>
+          <a :href='skill.link' class='headerAnchorLink'>{{ skill.title }}</a>
         </div>
       </div>
     </div>
