@@ -6,16 +6,16 @@ module.exports = {
       sansserif: ['Oswald','sans-serif'],
     },
     colors: {
-      pink: '#f5e1da',
+      eggshell: '#fdf7e9',
       black: '#000',
       blue: '#1a1b46',
       white: '#fff',
-      grey: '#f1f1f1',
       teal: '#49beb7',
+      grey: '#f4f7f6',
     },
     extend: {
       height: {
-        'hero': 'calc(100vh - 69px)',
+        'hero': 'calc(100vh - 75px)',
       },
       minHeight: {
         'hero': '500px',
@@ -25,7 +25,7 @@ module.exports = {
       },
       fontSize: {
         'super': '5rem',
-        'huge': '4rem',
+        'huge': '3rem',
         'tiny': '10px'
       }
     }

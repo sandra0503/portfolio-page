@@ -7,18 +7,59 @@
 @css {
   body, html, #app {
     height: 100%;
-    @apply .bg-grey;
   }
 
   .btn {
-    @apply .bg-pink .text-blue;
+    @apply .bg-eggshell .uppercase .font-sansserif .text-blue .transition-slow .p-2 .m-2 .rounded;
   }
 
-  .btn:hover {
-    @apply .bg-teal;
+  .btn-secondary {
+    @apply .btn .bg-teal .text-white;
+  }
+
+  .form-input {
+    @apply .flex .flex-col .max-w-lg .mx-auto .my-4;
+  }
+
+  .input-label {
+    @apply .flex-initial .pr-8 .w-full .text-left .font-sansserif;
+  }
+
+  .input-field,
+  input,
+  input:-webkit-autofill {
+    @apply .rounded-sm .flex-1 .h-10 .py-3 .bg-white .w-full;
+    border-bottom: 2px solid #e6e6e6;
+    background-color: transparent !important;
+    -webkit-box-shadow:0 0 0 50px white inset;
+  }
+
+  .input-field:focus {
+    @apply .border-teal;
+    outline: none;
+  }
+
+  @media (min-width: 768px) {
+    .btn:hover {
+      @apply .bg-teal .text-white;
+    }
+
+    .btn-secondary:hover {
+      @apply .bg-blue;
+    }
+
+    .form-input {
+      @apply .flex-row;
+    }
+
+    .input-label {
+      @apply .text-right .w-24;
+    }
+
+    .input-field {
+      @apply .w-auto .px-3;
+    }
   }
 }
-
-
 
 @tailwind utilities;

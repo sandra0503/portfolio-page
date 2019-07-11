@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav
-      class='font-sans bg-grey text-center flex justify-between py-4 px-3 mx-auto container overflow-hidden'
+      class='font-sans text-center flex justify-between py-4 px-3 mx-auto container overflow-hidden'
     >
       <router-link
         :to='`/`'
@@ -12,7 +12,7 @@
         <li v-for='item in navItems'>
           <a
             :href='item.link'
-            class='anchorLink cursor-pointer inline-block py-2 mt-1 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-grey hover:border-teal'
+            class='anchorLink cursor-pointer inline-block py-2 mt-1 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-white hover:border-teal'
           >
             {{item.text}}
           </a>
