@@ -22,6 +22,7 @@ module.exports = {
   },
   plugins: {
     'vuepress-plugin-smooth-scroll': true,
+    'smoothscroll-polyfill': true,
   },
   postcss: {
     plugins: [

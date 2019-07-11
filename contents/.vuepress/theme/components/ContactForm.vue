@@ -13,7 +13,7 @@
       <textarea name="message" class="input-field h-32 resize-none"></textarea>
     </div>
     <p>
-      <button class='mt-12 btn-secondary w-32' type="submit">{{ data.contact.buttonLabel }}</button>
+      <button class='mt-8 btn-secondary w-32' type="submit">{{ data.contact.buttonLabel }}</button>
     </p>
   </form>
 </template>

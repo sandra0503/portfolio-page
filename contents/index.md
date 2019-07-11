@@ -26,7 +26,7 @@ about:
     source: /images/sandra-zollner_004.jpg
     alt: Profile picture
   headline: Hi there!
-  text: My name is <b>Sandra</b>, I'm a frontend developer from Munich, Germany. I am developing customized websites and other digital products in agile teams since 2014. I studied Media Informatics with focus on human-computer-interaction (HCI) in Munich. What I love about my projects, is the process of creating new things together with other people and connecting technology with design and user experience! <br><br>Currently I’m working as a product engineer/frontend developer for <a href="https://sinnerschrader.com" target="__blank"><b>SinnerSchrader</b></a>, where we deliver trans­formational products for global brands.<br><br>In my free time I love music, good food, yoga practice and traveling!
+  text: My name is <b>Sandra</b>, I'm a frontend developer from Munich, Germany. I am developing customized websites and other digital products since 2014. I studied Media Informatics with focus on human-computer-interaction (HCI) in Munich. What I love about my work, is the process of creating new things together with other people and connecting technology with design and user experience! <br><br>Currently I’m working as a product engineer/frontend developer for <a href="https://sinnerschrader.com" target="__blank"><b>SinnerSchrader</b></a>, where we deliver trans­formational products for global brands.<br><br>In my free time I love music, good food, yoga practice and traveling!
 contact:
   text: If you would like to get in touch or if you want to know any details about my recent work, feel free to drop me a message!
   headline: Contact
