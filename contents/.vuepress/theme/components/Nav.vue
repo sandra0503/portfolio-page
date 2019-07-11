@@ -12,7 +12,9 @@
         <li v-for='item in navItems'>
           <a
             :href='item.link'
+            ref='anchorLink'
             class='anchorLink cursor-pointer inline-block py-2 mt-1 ml-3 text-grey-darkest p-2 no-underline transition-fast border-b-2 border-white hover:border-teal'
+            v-on:click='scrollToTarget'
           >
             {{item.text}}
           </a>
@@ -31,12 +33,6 @@ export default {
       return this.$site.themeConfig.locales[base].nav;
     },
   },
-  mounted () {
-    this.anchorLinks = document.querySelectorAll('.anchorLink');
-    this.anchorLinks.forEach(link => {
-      link.addEventListener('click', this.scrollToTarget);
-    });
-  },
   data () {
     return {
       anchorLinks: [],
@@ -47,11 +43,7 @@ export default {
       event.preventDefault();
       const anchor = document.querySelectorAll(event.target.getAttribute('href'))[0];
       if (anchor) {
-        const y = anchor.getBoundingClientRect().top + window.scrollY;
-        window.scroll({
-          top: y,
-          behavior: 'smooth'
-        });
+        anchor.scrollIntoView({ behavior: 'smooth' });
       }
     }
   },

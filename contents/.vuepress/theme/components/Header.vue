@@ -1,22 +1,22 @@
 <template>
   <div class='flex flex-col relative h-hero max-h-hero min-h-hero'>
-    <div class='absolute w-full h-full bg-cover bg-center z-0'
+    <div class='absolute w-full h-full bg-fixed bg-cover bg-center z-0'
       v-if='data && data.heroImage'
       :style='{ backgroundImage: `url(${$withBase(data.heroImage.source)})` }'
     />
     <div class='container uppercase text-center mx-auto mt-20 max-w-sm md:max-w-6xl md:mt-40 p-4 z-10'>
-      <h1 class='text-huge font-headline md:text-super text-eggshell'>
+      <h1 class='text-huge md:text-super font-headline text-eggshell'>
         {{ data.headerContent.text }}
       </h1>
-      <div class='mt-4 flex justify-center'>
-        <div class='w-3/5 md:w-1/4'>
+      <div class='mt-8 flex justify-center'>
+        <div class='w-3/5 md:w-1/5'>
           <img :src='$withBase(data.headerContent.arrow)' alt='arrow'/>
         </div>
       </div>
-      <div class='mt-8 md:mt-10 flex flex-wrap max-w-md mx-auto justify-center'>
+      <div class='mt-10 flex flex-wrap max-w-md mx-auto justify-center'>
         <div v-for='skill in data.headerContent.skills'
           class='btn'>
-          <a :href='skill.link' class='headerAnchorLink'>{{ skill.title }}</a>
+          <a :href='skill.link' ref='skillLink' v-on:click='scrollToTarget'>{{ skill.title }}</a>
         </div>
       </div>
     </div>
@@ -34,12 +34,6 @@ export default {
       return this.$page.frontmatter;
     },
   },
-  mounted () {
-    this.anchorLinks = document.querySelectorAll('.headerAnchorLink');
-    this.anchorLinks.forEach(link => {
-      link.addEventListener('click', this.scrollToTarget);
-    });
-  },
   data () {
     return {
       anchorLinks: [],
@@ -50,11 +44,7 @@ export default {
       event.preventDefault();
       const anchor = document.querySelectorAll(event.target.getAttribute('href'))[0];
       if (anchor) {
-        const y = anchor.getBoundingClientRect().top + window.scrollY;
-        window.scroll({
-          top: y,
-          behavior: 'smooth'
-        });
+        anchor.scrollIntoView({ behavior: 'smooth' });
       }
     }
   },

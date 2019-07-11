@@ -29,7 +29,7 @@
       </div>
     </div>
     <div id='contact' class='w-full'>
-      <div class='container text-center relative mx-auto px-3 py-10'>
+      <div class='container text-center relative mx-auto px-6 py-10'>
         <h1 class='font-headline text-4xl'>{{ data.contact.headline }}</h1>
         <p class='mt-4 mb-12 max-w-lg mx-auto' v-html='data.contact.text'></p>
         <ContactForm class="md:mb-12"/>

@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Raleway', 'sans-serif'],
-      headline: ['Limelight','cursive'],
+      headline: ['Lora', 'serif'],
       sansserif: ['Oswald','sans-serif'],
     },
     colors: {
@@ -24,8 +24,8 @@ module.exports = {
         'hero': '800px',
       },
       fontSize: {
-        'super': '5rem',
-        'huge': '3rem',
+        'super': '3rem',
+        'huge': '2.5rem',
         'tiny': '10px'
       }
     }

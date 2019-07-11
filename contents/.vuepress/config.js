@@ -22,7 +22,6 @@ module.exports = {
   },
   plugins: {
     'vuepress-plugin-smooth-scroll': true,
-    'smoothscroll-polyfill': true,
   },
   postcss: {
     plugins: [
@@ -30,4 +29,7 @@ module.exports = {
       require('autoprefixer'),
     ],
   },
+  head: [
+    ['script', {src: 'https://unpkg.com/smoothscroll-polyfill@0.4.3/dist/smoothscroll.min.js'}]
+  ]
 };

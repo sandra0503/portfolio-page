@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "glhd-tailwindcss-transitions": "^0.3.0",
-    "smoothscroll-polyfill": "^0.4.4",
     "vuepress-plugin-smooth-scroll": "^0.0.3"
   },
   "name": "portfolio-page",

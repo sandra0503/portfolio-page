@@ -1,7 +1,7 @@
 ---
 layout: Home
 heroImage:
-  source: /images/nathan-dumlao-520251-unsplash-1.jpg
+  source: /images/nathan-dumlao-520251-unsplash.jpg
   alt: Laptop with coffee
 headerContent:
   text: Love to craft

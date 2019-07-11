@@ -3178,7 +3178,7 @@ getpass@^0.1.1:
 
 glhd-tailwindcss-transitions@^0.3.0:
   version "0.3.0"
-  resolved "https://registry.pixie.rocks/glhd-tailwindcss-transitions/-/glhd-tailwindcss-transitions-0.3.0.tgz#9c32e35ba3a11a2d666caa559a1860e61674bcaf"
+  resolved "https://registry.yarnpkg.com/glhd-tailwindcss-transitions/-/glhd-tailwindcss-transitions-0.3.0.tgz#9c32e35ba3a11a2d666caa559a1860e61674bcaf"
   integrity sha512-dbPtRRj1q/ChkysW8Hq6UC2l9ETV7cc7ZFhUAKnA8vPny+jdrAQnnpRA+3QIs3LaMXCaobw4wjwO8X6dgP2BTA==
 
 glob-parent@^3.1.0:
@@ -6185,14 +6185,9 @@ slash@^2.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
-smoothscroll-polyfill@^0.4.3:
+smoothscroll-polyfill@^0.4.3, smoothscroll-polyfill@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
-  integrity sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==
-
-smoothscroll-polyfill@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.pixie.rocks/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
   integrity sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==
 
 snapdragon-node@^2.0.1:
