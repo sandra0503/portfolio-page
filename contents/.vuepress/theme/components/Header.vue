@@ -1,10 +1,10 @@
 <template>
   <div class='flex flex-col relative h-hero max-h-hero min-h-hero'>
-    <div class='absolute w-full h-full bg-fixed bg-cover bg-center z-0'
+    <div class='backgroundImage absolute w-full h-full bg-fixed bg-cover bg-center z-0'
       v-if='data && data.heroImage'
       :style='{ backgroundImage: `url(${$withBase(data.heroImage.source)})` }'
     />
-    <div class='container uppercase text-center mx-auto mt-20 max-w-sm md:max-w-6xl md:mt-40 p-4 z-10'>
+    <div class='headerContent slideUp container uppercase text-center mx-auto mt-20 max-w-sm md:max-w-6xl md:mt-40 p-4 z-10'>
       <h1 class='text-huge md:text-super font-headline text-eggshell'>
         {{ data.headerContent.text }}
       </h1>
@@ -55,3 +55,27 @@ export default {
   }
 };
 </script>
+
+<style>
+.backgroundImage {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0x);
+}
+
+.headerContent {
+  visibility: hidden;
+  transform: translateY(20px);
+}
+
+.slideUp {
+  animation: 0.5s slide-up 0.5s forwards;
+  -webkit-animation: 0.5s slide-up 0.5s forwards;
+}
+
+@keyframes slide-up {
+  100% {
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+</style>
