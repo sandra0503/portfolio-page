@@ -1,6 +1,6 @@
 <template>
-  <div class='flex flex-col flex-1 items-center self-center md:mx-8 my-8 md:my-6'>
-    <div class='rounded-full w-16 h-16'>
+  <div class='blubb flex flex-col flex-1 items-center self-center md:mx-8 my-8 md:my-6'>
+    <div class='iconImage rounded-full w-16 h-16'>
       <img :src='this.$withBase(`${icon}`)'/>
     </div>
     <h2 class='font-sansserif center m-4' v-if='headline' v-html='headline'></h2>
@@ -18,3 +18,14 @@ export default {
   },
 };
 </script>
+
+<style>
+.iconImage {
+  transform: scale(1);
+  transition: transform .5s ease-in-out;
+}
+
+.iconImage:hover {
+  transform: scale(1.2);
+}
+</style>

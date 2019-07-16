@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="bg-white">
     <nav
       class='font-sans text-center flex justify-between py-4 px-3 mx-auto container overflow-hidden'
     >
@@ -32,11 +32,6 @@ export default {
       const base = this.$site.base;
       return this.$site.themeConfig.locales[base].nav;
     },
-  },
-  data () {
-    return {
-      anchorLinks: [],
-    }
   },
   methods: {
     scrollToTarget(event) {

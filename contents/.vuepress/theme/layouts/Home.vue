@@ -2,7 +2,7 @@
   <div class='font-sans text-blue'>
     <Nav/>
     <Header/>
-    <div v-if='data.about' id='about' class='w-full'>
+    <div v-if='data.about' id='about' class='bg-white w-full'>
       <div class='container flex flex-col md:flex-row mx-auto px-6 py-10 md:py-16'>
         <div class='flex flex-1'>
           <div class='self-center w-56 md:w-64 py-2 mx-auto'>
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div id='contact' class='w-full'>
+    <div id='contact' class='bg-white w-full'>
       <div class='container text-center relative mx-auto px-6 py-10'>
         <h1 class='font-headline text-4xl'>{{ data.contact.headline }}</h1>
         <p class='mt-4 mb-12 max-w-lg mx-auto' v-html='data.contact.text'></p>
