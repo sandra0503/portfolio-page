@@ -1,5 +1,6 @@
 <template>
-  <div class='font-sans text-blue'>
+  <main class='p-container font-sans text-blue'>
+    <Background />
     <Nav/>
     <Header/>
     <div v-if='data.about' id='about' class='bg-white w-full'>
@@ -37,10 +38,11 @@
     </div>
     <Content class='flex-1 max-w-xl mx-auto leading-normal'/>
     <Footer class='pin-b'/>
-  </div>
+  </main>
 </template>
 
 <script>
+import Background from '@theme/components/atoms/Background';
 import ContactForm from '@theme/components/ContactForm';
 import Footer from '@theme/components/Footer';
 import Header from '@theme/components/Header';
@@ -48,7 +50,7 @@ import Nav from '@theme/components/Nav';
 import Teaser from '@theme/components/atoms/Teaser';
 
 export default {
-  components: { Nav, Header, Footer, Teaser, ContactForm },
+  components: { Background, Nav, Header, Footer, Teaser, ContactForm },
   name: 'Home',
   computed: {
     data () {
@@ -60,4 +62,12 @@ export default {
 
 <style lang='stylus'>
 @import '../styles/theme.styl';
+.p-container {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 8px;
+  perspective-origin: 0 0;
+  -webkit-overflow-scrolling: touch;
+}
 </style>
