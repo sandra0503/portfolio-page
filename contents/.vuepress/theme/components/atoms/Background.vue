@@ -1,10 +1,8 @@
 <template>
-  <div class='backgroundWrapper'>
-    <div class='backgroundImage absolute w-full h-full bg-cover bg-center'
-      v-if='data && data.heroImage'
-      :style='{ backgroundImage: `url(${$withBase(data.heroImage.source)})` }'
-    />
-  </div>
+  <div class='backgroundImage absolute w-full h-full bg-cover bg-center'
+    v-if='data && data.heroImage'
+    :style='{ backgroundImage: `url(${$withBase(data.heroImage.source)})` }'
+  />
 </template>
 
 <script>
@@ -18,7 +16,7 @@ export default {
 </script>
 
 <style>
-.backgroundImage, .backgroundArrows {
+.backgroundImage {
   transform: translateZ(-3px) scale(1.4);
   transform-origin: 0 0;
   top: 0;

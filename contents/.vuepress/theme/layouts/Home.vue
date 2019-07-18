@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class='w-full bg-eggshell'>
+    <div class='w-full bg-eggshell' id='skills'>
       <div class='container relative mx-auto px-6 py-10'>
         <h1 class='font-headline text-center text-4xl mb-4'>{{ data.experience.headline }}</h1>
         <div class='flex flex-col lg:flex-row'>
@@ -64,6 +64,7 @@ export default {
 @import '../styles/theme.styl';
 .p-container {
   height: 100vh;
+  width: 100vw;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 8px;

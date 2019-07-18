@@ -7,19 +7,19 @@ headerContent:
   text: Love to craft
   skills:
   - title: JavaScript
-    link: '#js'
+    link: '#skills'
   - title: HTML/CSS
-    link: '#js'
+    link: '#skills'
   - title: User Experience
-    link: '#ux'
+    link: '#skills'
   - title: Vue.js
-    link: '#js'
+    link: '#skills'
   - title: Responsive
-    link: '#js'
+    link: '#skills'
   - title: React
-    link: '#js'
+    link: '#skills'
   - title: Usability
-    link: '#ux'
+    link: '#skills'
   arrow: /icons/arrow.png
 about:
   image:
