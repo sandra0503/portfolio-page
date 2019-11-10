@@ -40,15 +40,15 @@ experience:
   - icon: /icons/003-team.svg
     title: Agile way of working
     anchor: agile
-    details: In the last few years I was working in various agile team settings, mostly within the <b>Scrum</b> framework. As a scrum team member I take backlog groomings, plannings and retrospectives seriously. I always contribute my part during the meetings and I enjoy to plan as well as to reflect sprints together with my team members. I like the short ways of <b>communication</b>, <b>freedom</b> in decisions and quick <b>outcome</b> of agile team work.
+    details: In the last few years I was working in various agile team settings, mostly within the <b>Scrum</b> framework. As a scrum team member I take backlog groomings, plannings and retrospectives seriously. I enjoy to plan as well as to reflect sprints together with my team members. I like the short ways of <b>communication</b>, <b>freedom</b> in decisions and quick <b>outcome</b> of agile team work.
   - icon: /icons/001-tablet.svg
     title: HTML, CSS & JavaScript
     anchor: js
-    details: While I'm confident in building the frontend part of state-of-the-art web applications, I'm always learning new things and technologies. Besides a deep knowledge of HTML, CSS and <b>JavaScript</b>, I'm familiar with frameworks like React, Angular or <b>Vue.js</b>. Of course I'm also not afraid of connecting to APIs and backend systems. In my most recent project we were building a mobile-first online shop implemented with Zalando's Mosaic 9 stack.
+    details: While I'm confident in building the frontend part of state-of-the-art web applications, I'm always learning new things and technologies. Besides a deep knowledge of HTML, CSS and <b>JavaScript</b>, I'm familiar with frameworks like React, Angular or <b>Vue.js</b>. I have experience building complex and data-heavy web applications. In my most recent project we were building an online shop implemented with Zalando's Mosaic 9 stack.
   - icon: /icons/002-ux.svg
     anchor: ux
     title: Focus on UX/UI
-    details: My goal is not only to deliver good code, I do also have a strong focus on <b>user interface</b> and <b>user experience</b> when developing products and features. I enjoy to collaborate closely with designers and user experience experts. I thrive to build websites, applications and features which are <b>truly valuable</b> to users and have a <b>positive impact</b> on the world. My background in HCI is helpful for designing data-driven user studies and tests.
+    details: My goal is not only to deliver good code, I do also have a strong focus on <b>user interface</b> and <b>user experience</b> when developing products and features. I enjoy to collaborate closely with designers and user experience experts. I thrive to build websites, applications and features which are <b>truly valuable</b> to users and have a <b>positive impact</b> on the world.
 footer: Copyright © 2019 Sandra Zollner
 title: Sandra Zollner
 ---
