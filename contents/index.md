@@ -26,7 +26,7 @@ about:
     source: /images/sandra-zollner_004.jpg
     alt: Profile picture
   headline: Hi there!
-  text: My name is <b>Sandra</b>, I'm a frontend developer based in London, Dalston. I am developing customized websites and other digital products since 2014. I studied Media Informatics with focus on human-computer-interaction (HCI) in Munich. What I love about my work, is the process of creating new things together with other people and connecting technology with design and user experience! <br><br>Currently I’m working as a Frontend developer for <a href="https://www.askattest.com/" target="__blank"><b>Attest</b></a>, we're providing B2B SaaS for research and consumer insights.<br><br>In my free time I love to eat and cook good food, yoga and to spend time outdoors as much as possible.
+  text: My name is <b>Sandra</b>, I'm a frontend developer based in London, Dalston. I am developing customized websites and other digital products since 2014. I studied Media Informatics with focus on human-computer-interaction (HCI) in Munich. What I love about my work, is the process of creating new things together with other people and connecting technology with design and user experience! <br><br>Currently I’m working as a Frontend developer for <a href="https://www.askattest.com/" target="__blank"><b>Attest</b></a>, we're providing B2B SaaS for research and consumer insights.<br><br>In my free time I love to cook and eat good food, yoga and to spend time outdoors as much as possible.
 contact:
   text: If you would like to get in touch or if you want to know any details about my recent work, feel free to drop me a message!
   headline: Contact
