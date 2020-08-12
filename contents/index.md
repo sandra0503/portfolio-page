@@ -26,7 +26,7 @@ about:
     source: /images/sandra-zollner_004.jpg
     alt: Profile picture
   headline: Hi there!
-  text: My name is <b>Sandra</b>, I'm a frontend developer based in London, Dalston. I am developing customized websites and other digital products since 2014. I studied Media Informatics with focus on human-computer-interaction (HCI) in Munich. What I love about my work, is the process of creating new things together with other people and connecting technology with design and user experience! <br><br>Currently I’m working as a Frontend developer for <a href="https://www.askattest.com/" target="__blank"><b>Attest</b></a>, we're providing B2B SaaS for research and consumer insights.<br><br>In my free time I love to cook and eat good food, yoga and to spend time outdoors as much as possible.
+  text: My name is <b>Sandra</b>, I'm a Frontend developer based in London, Dalston. I am developing customized websites and other digital products since 2014. I studied Media Informatics with focus on human-computer-interaction (HCI) in Munich. What I love about my work, is the process of creating new things together with other people and connecting technology with design and user experience! <br><br>Currently I’m working as a Frontend developer for <a href="https://www.askattest.com/" target="__blank"><b>Attest</b></a>, we're providing B2B SaaS for research and consumer insights.<br><br>In my free time I love to cook and eat good food, yoga and to spend time outdoors as much as possible.
 contact:
   text: If you would like to get in touch or if you want to know any details about my recent work, feel free to drop me a message!
   headline: Contact
@@ -44,7 +44,7 @@ experience:
     - icon: /icons/001-tablet.svg
       title: HTML, CSS & JavaScript
       anchor: js
-      details: While I'm confident in building the frontend part of state-of-the-art web applications, I'm always learning new things and technologies. Besides a deep knowledge of HTML, CSS and <b>JavaScript</b>, I'm familiar with frameworks like React, Angular or <b>Vue.js</b>. I have experience building complex and data-heavy web applications. In my most recent project we were building an online shop implemented with Zalando's Mosaic 9 stack.
+      details: While I'm confident in building the frontend part of state-of-the-art web applications, I'm always learning new things and technologies. Besides a deep knowledge of HTML, CSS and <b>JavaScript</b>, I'm very passionate about  <b>Vue.js</b> and TypeScript. I have experience building complex and data-heavy web applications. In my most recent project we were building an online shop implemented with Zalando's Mosaic 9 stack.
     - icon: /icons/002-ux.svg
       anchor: ux
       title: Focus on UX/UI
